@@ -96,8 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
     if (downloadBtn) {
       downloadBtn.addEventListener("click", (event) => {
-        event.preventDefault()
-        alert("CV akan diunduh segera. Fitur ini akan diimplementasikan dengan file CV asli.")
+        // Biarkan browser menangani download secara default
+        // Event listener ini bisa digunakan untuk analytics atau tracking jika diperlukan
+        console.log("CV download initiated");
       })
     }
   }
