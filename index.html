@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedi Firmansah - Barista Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <div class="container">
+            <div class="mobile-nav-container">
+                <div class="logo">DF</div>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#about" class="mobile-link">Tentang Saya</a></li>
+            <li><a href="#skills" class="mobile-link">Keahlian</a></li>
+            <li><a href="#equipment" class="mobile-link">Peralatan</a></li>
+            <li><a href="#education" class="mobile-link">Pendidikan</a></li>
+            <li><a href="#experience" class="mobile-link">Pengalaman</a></li>
+            <li><a href="#gallery" class="mobile-link">Galeri</a></li>
+            <li><a href="#contact" class="mobile-link">Kontak</a></li>
+        </ul>
+    </div>
+
+    <!-- HEADER SECTION -->
+    <header class="hero">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/carousel/caraousel2.jpeg" alt="Coffee Background 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/carousel/caraousel1.jpeg" alt="Coffee Background 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/carousel/caraousel3.jpeg" alt="Coffee Background 3">
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="images/tentang saya.jpeg" alt="Dedi Firmansah">
+                </div>
+                <h1>Dedi Firmansah</h1>
+                <p class="subtitle">Barista Junior | Manual Brew Specialist | Hospitality</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Hubungi Saya</a>
+                    <a href="#" class="btn secondary" id="download-cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <p>Ke Bawah</p>
+            </a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/presentasi2.jpeg" alt="Dedi Firmansah Brewing Coffee">
+                </div>
+                <div class="about-text">
+                    <p>Saya adalah seorang barista junior dengan pengalaman 1 tahun di industri kopi. Saya memiliki passion yang kuat dalam seni menyeduh kopi dan menciptakan pengalaman yang berkesan bagi pelanggan.</p>
+                    <p>Setelah menyelesaikan pelatihan profesional di BBPLK Medan, saya telah mengembangkan keterampilan dalam berbagai teknik brewing dan pengoperasian mesin espresso. Saya percaya bahwa secangkir kopi yang baik tidak hanya tentang rasa, tetapi juga tentang pengalaman dan cerita di baliknya.</p>
+                    <p>Saya selalu bersemangat untuk belajar teknik-teknik baru dan mengeksplorasi berbagai jenis biji kopi dari seluruh Indonesia dan dunia.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label">Tahun Pengalaman</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Teknik Brewing</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">90+</span>
+                            <span class="stat-label">Pelanggan Puas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Keahlian Utama</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-coffee"></i>
+                    <div class="skill-info">
+                        <h3>Espresso Machine</h3>
+                        <p>Pengalaman mengoperasikan mesin La Marzocco dan Bezzera. Mampu menyesuaikan grind size, dose, dan extraction time untuk menghasilkan espresso yang optimal.</p>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-filter"></i>
+                    <div class="skill-info">
+                        <h3>Manual Brewing</h3>
+                        <p>Menguasai berbagai metode manual brewing seperti V60, Kalita, dan Aeropress. Memahami pengaruh rasio kopi-air, suhu, dan teknik penyeduhan terhadap hasil akhir.</p>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="skill-info">
+                        <h3>Latte Art</h3>
+                        <p>Mampu membuat pola dasar seperti heart, tulip, dan rosetta. Terus berlatih untuk mengembangkan teknik dan konsistensi dalam latte art.</p>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-users"></i>
+                    <div class="skill-info">
+                        <h3>Hospitality & Teamwork</h3>
+                        <p>Kemampuan komunikasi yang baik dengan pelanggan dan rekan kerja. Mampu bekerja di bawah tekanan dan menangani situasi sibuk dengan efisien.</p>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPMENT SECTION -->
+    <section id="equipment" class="section">
+        <div class="container">
+            <h2 class="section-title">Peralatan yang Pernah Digunakan</h2>
+            <div class="equipment-grid">
+                <div class="equipment-card" data-equipment="v60">
+                    <div class="equipment-icon">
+                        <img src="images/v60.png" alt="V60">
+                    </div>
+                    <h3>Hario V60</h3>
+                    <p class="equipment-desc">Pour-over dripper dengan aliran cepat dan ekstraksi yang bersih</p>
+                </div>
+                <div class="equipment-card" data-equipment="kalita">
+                    <div class="equipment-icon">
+                        <img src="images/kalita wave.png" alt="Kalita">
+                    </div>
+                    <h3>Vietnam Dripper</h3>
+                    <p class="equipment-desc">Flat-bottom dripper untuk ekstraksi yang lebih konsisten</p>
+                </div>
+                <div class="equipment-card" data-equipment="victoria">
+                    <div class="equipment-icon">
+                        <img src="images/v60.png" alt="Victoria Arduino">
+                    </div>
+                    <h3>Syphon</h3>
+                    <p class="equipment-desc">Mesin espresso premium dengan kontrol suhu yang presisi</p>
+                </div>
+                <div class="equipment-card" data-equipment="aeropress">
+                    <div class="equipment-icon">
+                        <img src="images/v60.png" alt="Aeropress">
+                    </div>
+                    <h3>Aeropress</h3>
+                    <p class="equipment-desc">Metode brewing serbaguna dengan tekanan manual</p>
+                </div>
+                <div class="equipment-card" data-equipment="chemex">
+                    <div class="equipment-icon">
+                        <img src="images/v60.png" alt="Chemex">
+                    </div>
+                    <h3>Chemex</h3>
+                    <p class="equipment-desc">Pour-over dengan filter tebal untuk hasil yang bersih</p>
+                </div>
+                <div class="equipment-card" data-equipment="french-press">
+                    <div class="equipment-icon">
+                        <img src="images/v60.png" alt="French Press">
+                    </div>
+                    <h3>French Press</h3>
+                    <p class="equipment-desc">Metode immersion untuk hasil yang full-bodied</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Pelatihan & Pendidikan</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Pelatihan Barista oleh Kemnaker RI – Kelas Barista Profesional</h3>
+                        <p class="timeline-date">April - 26 Mei 2025</p>
+                        <div class="timeline-details">
+                            <p>Program pelatihan intensif selama 1 bulan yang mencakup:</p>
+                            <ul>
+                                <li>Dasar-dasar kopi dan proses pasca panen</li>
+                                <li>Teknik espresso dan calibration</li>
+                                <li>Manual brewing methods</li>
+                                <li>Milk steaming dan latte art dasar</li>
+                                <li>Customer service dan manajemen bar</li>
+                            </ul>
+                            <p>Sertifikasi: Barista Level 1 (BNSP)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>BLK Komunitas Y2P Modern Syamsul Maarif - Lombok Tengah NTB, Indonesia</h3>
+                        <p class="timeline-date">25 Maret 2022 – 17 Maret 2025</p>
+                        <div class="timeline-details">
+                            <p> Sebagai Tenaga Pelatihan</p>
+                            <ul>
+                                <li>Menyusun Rencana,Program Dan Anggarant</li>
+                                <li>Melakukan Evaluasi Dan Menyusunan Laporan.</li>
+                                <li>Melaksanaan Pelatihan Dan Pemberdayaan Bagi Tenaga Kerja</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Universitas Qamarul Huda Badaruddin Bagu – S1 Teknologi Informasi</h3>
+                        <p class="timeline-date">2020 - 2024</p>
+                        <div class="timeline-details">
+                            <p>Jurusan Teknik Komputer dan Jaringan dengan fokus pada:</p>
+                            <ul>
+                                <li>Dasar-dasar pemrograman</li>
+                                <li>Versi kontrol menggunakan Git dan GitHub</li>
+                                <li>Troubleshooting hardware dan software</li>
+                                <li>Penguasaan dasar-dasar pemrograman untuk pengembangan aplikasi</li>
+                                <li>Pengembangan antarmuka pengguna (UI/UX design dasar)</li>
+                            </ul>
+                            <p>Predikat Nilai : 3,7/4 (Sangat Memuaskan)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Pengalaman Organisasi & Kerja</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="experience-details">
+                        <h3>Barista Junior - Kopi Kenangan</h3>
+                        <p class="experience-date">November 2024 - 27 Januari 2025</p>
+                        <ul>
+                            <li>Menyiapkan dan menyajikan berbagai minuman kopi dan non-kopi</li>
+                            <li>Mengoperasikan dan merawat mesin espresso</li>
+                            <li>Memberikan rekomendasi kepada pelanggan berdasarkan preferensi mereka</li>
+                            <li>Menjaga kebersihan area bar dan peralatan</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="experience-details">
+                        <h3>Wakil Ketua OSIM - MAS Qamarul Huda Bagu</h3>
+                        <p class="experience-date">2018 - 2019</p>
+                        <ul>
+                            <li>Memimpin tim pengurus OSIM yang terdiri dari 15 anggota</li>
+                            <li>Merencanakan dan mengkoordinasikan berbagai kegiatan sekolah</li>
+                            <li>Menjadi penghubung antara siswa dan pihak sekolah</li>
+                            <li>Mengembangkan keterampilan kepemimpinan dan manajemen waktu</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="experience-details">
+                        <h3>Magang - Warung Kopi Lokal</h3>
+                        <p class="experience-date">Juni - Agustus 2021</p>
+                        <ul>
+                            <li>Membantu operasional harian warung kopi</li>
+                            <li>Belajar dasar-dasar penyajian kopi</li>
+                            <li>Berinteraksi dengan pelanggan dan memahami preferensi mereka</li>
+                            <li>Mendapatkan pengalaman praktis dalam industri kopi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="training">Pelatihan</button>
+                <button class="filter-btn" data-filter="latte-art">Latte Art</button>
+                <button class="filter-btn" data-filter="brewing">Brewing</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- Training Images -->
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/carousel/caraousel2.jpeg" alt="Pelatihan Barista">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Pelatihan Barista BBPLK</h3>
+                                <p>Agustus 2021</p>
+                                <button class="gallery-btn" data-src="images/carousel/caraousel2.jpeg" data-type="image">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Pelatihan Barista BBPLK</h4>
+                        <p>Sesi pembelajaran tentang dasar-dasar espresso</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/carousel/caraousel1.jpeg" alt="Workshop Kopi">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Workshop Kopi Specialty</h3>
+                                <p>September 2021</p>
+                                <button class="gallery-btn" data-src="/placeholder.svg?height=800&width=1200" data-type="image">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Workshop Kopi Specialty</h4>
+                        <p>Belajar tentang berbagai jenis kopi specialty Indonesia</p>
+                    </div>
+                </div>
+                <!-- Latte Art Images -->
+                <div class="gallery-item" data-category="latte-art">
+                    <div class="gallery-image">
+                        <img src="images/tulip saya.jpeg" alt="Latte Art Heart">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Latte Art - Tulip</h3>
+                                <p>Oktober 2021</p>
+                                <button class="gallery-btn" data-src="/placeholder.svg?height=800&width=1200" data-type="image">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Latte Art - Tulip</h4>
+                        <p>Hasil latihan teknik dasar latte art</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="latte-art">
+                    <div class="gallery-image">
+                        <img src="images/heart.jpeg" alt="Latte Art Rosetta">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Latte Art - Heart</h3>
+                                <p>Maret 2022</p>
+                                <button class="gallery-btn" data-src="/placeholder.svg?height=800&width=1200" data-type="image">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Latte Art - Heart</h4>
+                        <p>Perkembangan teknik latte art setelah workshop</p>
+                    </div>
+                </div>
+                <!-- Brewing Images -->
+                <div class="gallery-item" data-category="brewing">
+                    <div class="gallery-image">
+                        <img src="images/tentang saya.jpeg" alt="V60 Brewing">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>V60 Brewing Session</h3>
+                                <p>November 2021</p>
+                                <button class="gallery-btn" data-src="/placeholder.svg?height=800&width=1200" data-type="image">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>V60 Brewing Session</h4>
+                        <p>Praktik brewing dengan menggunakan beberapa alat brewing.</p>
+                    </div>
+                </div>
+                <!-- Video Item -->
+                <div class="gallery-item" data-category="brewing">
+                    <div class="gallery-image video-thumbnail">
+                        <img src="images/presentasi3.jpeg" alt="Brewing Tutorial">
+                        <div class="video-play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Tutorial Brewing</h3>
+                                <p>Desember 2021</p>
+                                <button class="gallery-btn" data-src="images/tulip video.mp4" data-type="video">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Tutorial Brewing</h4>
+                        <p>Video tutorial cara brewing dengan V60</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title">Minat & Hobi</h2>
+            <div class="interests-content">
+                <div class="interest-item">
+                    <i class="fas fa-camera"></i>
+                    <h3>Fotografi</h3>
+                    <p>Mengabadikan momen dan keindahan dalam secangkir kopi</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-video"></i>
+                    <h3>Videografi</h3>
+                    <p>Membuat konten tutorial dan review kopi</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Traveling</h3>
+                    <p>Mengunjungi berbagai coffee shop dan kebun kopi</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-book"></i>
+                    <h3>Membaca</h3>
+                    <p>Mempelajari sejarah dan budaya kopi dunia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Kontak</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p><a href="mailto:dedifirmansah7@email.com">dedifirmansah7@email.com</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/6287762344478">+6287762344478</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Lokasi</h3>
+                            <p>Lombok, Indonesia</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                            <p><a href="https://instagram.com/dedfirmansah">@dedfirmansah</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Dedi Firmansah</h3>
+                    <p>Junior Barista | Manual Brew Specialist | Hospitality</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dedi Firmansah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <div class="modal-image-container">
+                <img id="modal-image" src="/placeholder.svg" alt="Gallery Image">
+            </div>
+            <div class="modal-video-container">
+                <iframe id="modal-video" src="/placeholder.svg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
