@@ -455,3 +455,19 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(nextSlide, 5000);
   }
   
+  // CV Dropdown functionality
+  const cvDropdown = document.getElementById('cvDropdown');
+  const cvDropdownMenu = document.getElementById('cvDropdownMenu');
+
+  cvDropdown.addEventListener('click', (e) => {
+      e.stopPropagation();
+      cvDropdown.parentElement.classList.toggle('active');
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+      if (!cvDropdown.contains(e.target)) {
+          cvDropdown.parentElement.classList.remove('active');
+      }
+  });
+  
