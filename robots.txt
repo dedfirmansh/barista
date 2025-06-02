@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dedfirmansah.github.io/barista/sitemap.xml 
